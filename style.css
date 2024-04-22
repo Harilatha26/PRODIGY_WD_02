@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: repeating-linear-gradient(rgb(153, 255, 0),yellow,pink)
+}
+
+.stopwatch {
+    width: 600px;
+    margin: 100px auto;
+    background-color: plum;
+    padding: 20px;
+    border-radius: 80px;
+    box-shadow: 10px 10px 10px purple;
+}
+
+.time {
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.controls button {
+    background-color:#277c8e;
+    color: black;
+    border: rgb(145, 92, 14);
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin: 10px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 40px;
+}
+
+.controls button:hover {
+    background-color: #23a072;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
